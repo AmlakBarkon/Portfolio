@@ -1,0 +1,147 @@
+body {
+  background-image: url("capitolone.jpg");
+  background-size: cover;
+}
+.body {
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(84,68,68, .5);
+  border: 2px solid white;
+  padding: 50px;
+  margin-top: 30px;
+  margin-left: 250px;
+  margin-right:250px;
+}
+h1 {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+
+}
+ .anchor {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  border-right: 2px solid white;
+  padding-right: 4px;
+}
+.anchorResume {
+  color: rgb(114,183,127);
+}
+h2 {
+  text-align: left;
+  color: white;
+  margin-left: 10px;
+  border-top: 4px solid white;
+  padding-top:40px;
+
+}
+a.anchorResume:hover {
+  color: red;
+}
+footer a {
+  float: left;
+  text-decoration: none;
+  margin-left:20px;
+  color: rgb(107,162,105);
+  border: 2px solid white;
+  margin-right:20px;
+   padding: 10px;
+
+}
+footer a:hover {
+  color: yellow;
+  background-color: black;
+}
+
+footer {
+  clear:both;
+  margin-top: 60px;
+  border-top:2px solid white;
+  padding-top:20px;
+  padding-bottom: 20px;
+
+}
+img {
+  margin-left:440px;
+  border: 2px solid white;
+  width:140px;
+  height:140px;
+
+}
+p {
+  color: white;
+  font-style:oblique;
+  margin-right: 30px;
+  font-size: 18px;
+  font-family: fantasy;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  text-align: left;
+
+}
+ #menu-list {
+  float: left;
+  width: 200px;
+  height: 800px;
+  background-color:rgb(71,71,71);
+  padding-top: 100px;
+}
+div .one {
+  color: white;
+  text-align: center;
+  line-height: 70px;
+
+}
+.one:hover {
+  border-bottom: 2px solid black;
+  border-bottom: 4px solid red;
+  padding-left: 20px;
+  padding-right:20px;
+}
+.info-about-me {
+ line-height: .4;
+}
+.project-holder {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.project-holder1 {
+  margin-top:30px;
+  margin-left:15px;
+  width:300px;
+  height: 300px;
+  background-color: gray;
+
+}
+.menu-list{
+  border-bottom: 2px solid black;
+}
+.footer a{
+  margin:20px;
+  color:white;
+   text-decoration: none;
+
+}
+.footer a:hover {
+  color:blue;
+}
+.project-holder1 h1 {
+  padding-top:60px;
+}
+.info-div-my {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 10px;
+
+}
+.title-job {
+  border-bottom: 3px solid white;
+  padding-bottom: 20px;
+}
